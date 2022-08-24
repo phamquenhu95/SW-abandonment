@@ -153,7 +153,7 @@ GET abandonment202208-*/_search
 
    #### 6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
    <p align="center">
- <img src="images/age-percen.png" style="width:200px;"/>
+ <img src="images/age-percen.png" style="width:400px;"/>
 </p>
 <p align = "center">
  <em>그림 8: 나이 비율 </em>
@@ -200,7 +200,7 @@ GET abandonment202208-*/_search
 
    #### 6.9.	 경기도 보호소 맵
  <p align="center">
- <img src="images/kyeonggido-careadd-map.png" style="width:800px;"/>
+ <img src="images/kyeonggido-careadd-map.png" style="width:600px;"/>
 </p>
 <p align = "center">
  <em>그림 14: 경기도 보호소 맵 </em>
