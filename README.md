@@ -143,15 +143,15 @@ GET abandonment202208-*/_search
  <em>그림 6: 각 품종별 보호상태 </em>
 </p>
  
-   ####6.4.	품종별 성별과 색상은 어떻게 되나요?
+ #### 6.4.	품종별 성별과 색상은 어떻게 되나요?
  <p align="center">
- <img src="images/kind-sex-color.png" style="width:1000px;"/>
+ <img src="images/kind-sex-color.png" style="width:500px;"/>
 </p>
 <p align = "center">
  <em>그림 7: 품종별 성별과 색상 </em>
 </p>
 
-   ####6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
+   #### 6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
    <p align="center">
  <img src="images/age-percen.png" style="width:500px;"/>
 </p>
@@ -166,7 +166,7 @@ GET abandonment202208-*/_search
  <em>그림 9: 나이와 체중 관계 </em>
 </p>
 
-   ####6.6.	중성화는 어떻게 되나요?
+   #### 6.6.	중성화는 어떻게 되나요?
    <p align="center">
  <img src="images/neuterYn.png" style="width:500px;"/>
 </p>
@@ -174,7 +174,7 @@ GET abandonment202208-*/_search
  <em>그림 10: 중성화여부 </em>
 </p>
  
-   ####6.7.	 보호소 총 수량 및 보호소별 각 품종 수량은 어떻게 되나요?
+   #### 6.7.	 보호소 총 수량 및 보호소별 각 품종 수량은 어떻게 되나요?
 
  <p align="center">
  <img src="images/careAdd.PNG" style="width:500px;"/>
@@ -190,17 +190,17 @@ GET abandonment202208-*/_search
  <em>그림 12: 보호소별 각 품종 수량 </em>
 </p>
  
-   ####6.8.	보호소별 보호상태비율 현황은 어떻게 되나요?
+   #### 6.8.	보호소별 보호상태비율 현황은 어떻게 되나요?
  <p align="center">
- <img src="images/careAdd-carestatus.png" style="width:1000px;"/>
+ <img src="images/careAdd-carestatus.png" style="width:600px;"/>
 </p>
 <p align = "center">
  <em>그림 13: 보호소별 보호상태비율 현황 </em>
 </p>
 
-   ####6.9.	 경기도 보호소 맵
+   #### 6.9.	 경기도 보호소 맵
  <p align="center">
- <img src="images/kyeonggido-careadd-map.png style="width:1000px;"/>
+ <img src="images/kyeonggido-careadd-map.png style="width:600px;"/>
 </p>
 <p align = "center">
  <em>그림 14: 경기도 보호소 맵 </em>
