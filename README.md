@@ -153,7 +153,7 @@ GET abandonment202208-*/_search
 
    #### 6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
    <p align="center">
- <img src="images/age-percen.png" style="width:400px;"/>
+ <img src="images/age-percen.png" style="width:500px;"/>
 </p>
 <p align = "center">
  <em>그림 8: 나이 비율 </em>
@@ -184,7 +184,7 @@ GET abandonment202208-*/_search
 </p>
  
  <p align="center">
- <img src="images/careAdd-kind.png" style="width:500px;"/>
+ <img src="images/careAdd-kind.png" style="width:600px;"/>
 </p>
 <p align = "center">
  <em>그림 12: 보호소별 각 품종 수량 </em>
