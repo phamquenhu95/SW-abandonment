@@ -177,7 +177,7 @@ GET abandonment202208-*/_search
    #### 6.7.	 보호소 총 수량 및 보호소별 각 품종 수량은 어떻게 되나요?
 
  <p align="center">
- <img src="images/careAdd.PNG" style="width:500px;"/>
+ <img src="images/careAdd.PNG" style="width:200px;"/>
 </p>
 <p align = "center">
  <em>그림 11: 보호소 총 수량 </em>
