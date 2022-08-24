@@ -137,7 +137,7 @@ GET abandonment202208-*/_search
    #### 6.3.	각 품종별 보호상태가 어떻게 되나요?
    
   <p align="center">
- <img src="images/kind-carestatus.png" style="width:600px;"/>
+ <img src="images/kind-carestatus.png" style="width:400px;"/>
 </p>
 <p align = "center">
  <em>그림 6: 각 품종별 보호상태 </em>
