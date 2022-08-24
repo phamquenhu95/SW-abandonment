@@ -73,19 +73,27 @@ public class ApiExplorer {
    ### 4.데이터를 가공
    키바나에서 읽을 수 있도록 알맞은 포맷으로 바꿔야 한다. 
 <p align="center">
- <img src="images/data_info.png" alt="Data information" style="width:600px;"/>
+ <img src="images/before.PNG" style="width:1000px;"/>
 </p>
 <p align = "center">
- <em>Figure 1: The basic and service information of the data.</em>
+ <em>그림 1: 데이터 수정 전 </em>
 </p>
- 
-desertionNo Column는 Number포맷으로 바꾼다
-happenDt, noticeSdt 및 noticeEdt는 Datetime (“yyyy-mm-dd”)포맷으로 바꾼다.
-결과
- 
-4.	키바나 데이터 비주얼라이저를  이용한 파일 거져오고 데이터 Discovery
- 키바나에서 제공하는 데이터 비주얼라이저 메뉴를 이용하고 수정된 CSV 파일을 엘라스틱서치에 저장한다. 이 과제에서 파일 저장이름은 “abandonmet202208-*” 이다.
-Dev Tool를 이용하여 키바나 콘솔에서 매트릭 집계를 통해 데이터 범위를 확인한다. happenDt (접수일)는 2022-08-01부터 2022-08-22까지의 범위를 갖고 있다.
+   
+   desertionNo Column는 Number포맷으로 바꾼다
+   happenDt, noticeSdt 및 noticeEdt는 Datetime (“yyyy-mm-dd”)포맷으로 바꾼다.
+   결과
+   <p align="center">
+ <img src="images/after.PNG" style="width:1000px;"/>
+</p>
+<p align = "center">
+ <em>그림 2: 데이터 수정 결과 </em>
+</p>
+
+   ### 5. 키바나 데이터 비주얼라이저를 이용한 파일 거져오고 데이터 Discovery
+   키바나에서 제공하는 데이터 비주얼라이저 메뉴를 이용하고 수정된 CSV 파일을 엘라스틱서치에 저장한다. 이 과제에서 파일 저장이름은 **“abandonmet202208-*”** 이다.
+   Dev Tool를 이용하여 키바나 콘솔에서 매트릭 집계를 통해 데이터 범위를 확인한다. **happenDt** (접수일)는 **2022-08-01부터 2022-08-22까지**의 범위를 갖고 있다.
+   
+   ```elasticsearch
 
 GET abandonment202208-*/_search
  {
@@ -98,14 +106,12 @@ GET abandonment202208-*/_search
      }
    }
  }
-
+```
  
-
-5.	키바나에서 분석
-인덱스 패턴 이름을 abandonment202208-*라고 지정하고 타임 필터에서 timestamp를 선택한다. 다음 링크를 참고하고 기간은 “2022년 8월 1일 ~ 2022년 8월 22일”을
-선택하기를 바란다.
-http://20.214.241.250:5601/app/dashboards#/view/e0d39e10-22ea-11ed-9c12-83496c1b08fe?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))
-5.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
+   ### 6. 키바나에서 분석
+   인덱스 패턴 이름을 **abandonment202208-* **라고 지정하고 타임 필터에서 timestamp를 선택한다. 다음 링크를 참고하고 기간은 **“2022년 8월 1일 ~ 2022년 8월 22일”**을
+선정하기를 바란다. 다음 URL를 크릭하여 [Dashboarch](http://20.214.241.250:5601/app/dashboards#/view/e0d39e10-22ea-11ed-9c12-83496c1b08fe?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))) 보여줄 것이다.
+6.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
  
 5.2.	총품중 및 품종별 접수량이 얼마인가?
  
