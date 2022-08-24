@@ -1,0 +1,14 @@
+```elasticsearch
+
+GET abandonment202208-*/_search
+ {
+   "size": 0,
+   "aggs": {
+     "rdate": {
+       "stats": {
+         "field": "happenDt"
+       }
+     }
+   }
+ }
+```
