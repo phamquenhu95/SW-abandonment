@@ -120,7 +120,7 @@ GET abandonment202208-*/_search
 
    ####6.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
    <p align="center">
- <img src="images/접수량.PNG" style="width:1000px;"/>
+ <img src="images/접수량.PNG" style="width:800px;"/>
 </p>
 <p align = "center">
  <em>그림 4: 총 접수량 및 날짜별 접수량 및 게시된 공고 </em>
@@ -153,7 +153,7 @@ GET abandonment202208-*/_search
 
    #### 6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
    <p align="center">
- <img src="images/age-percen.png" style="width:500px;"/>
+ <img src="images/age-percen.png" style="width:200px;"/>
 </p>
 <p align = "center">
  <em>그림 8: 나이 비율 </em>
@@ -200,7 +200,7 @@ GET abandonment202208-*/_search
 
    #### 6.9.	 경기도 보호소 맵
  <p align="center">
- <img src="images/kyeonggido-careadd-map.png style="width:600px;"/>
+ <img src="images/kyeonggido-careadd-map.png" style="width:800px;"/>
 </p>
 <p align = "center">
  <em>그림 14: 경기도 보호소 맵 </em>
