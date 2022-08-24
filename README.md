@@ -12,7 +12,7 @@
    (잠고: 엘라스틱서치, 키바나, 러그스태스를 설치하고 실행한다)
    ### 3. 데이터를 가져오기
    #### 3.1. 동물보호관리시스템 유기동물 조회 서비스
-   공공데이터 [Data](https://www.data.go.kr/data/15098931/openapi.do) (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
+   공공데이터 URL [Data](https://www.data.go.kr/data/15098931/openapi.do) (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
    ##### 조회 방법 1 (예제):
    http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20211201&endde=20211231&pageNo=1&numOfRows=10&serviceKey=인증키(URL Encode)
    
@@ -107,34 +107,101 @@ GET abandonment202208-*/_search
    }
  }
 ```
- 
+ <p align="center">
+ <img src="images/Data Discovery.PNG" style="width:1000px;"/>
+</p>
+<p align = "center">
+ <em>그림 3: Data Discovery </em>
+</p>
+
    ### 6. 키바나에서 분석
    인덱스 패턴 이름을 **abandonment202208-* **라고 지정하고 타임 필터에서 timestamp를 선택한다. 다음 링크를 참고하고 기간은 **“2022년 8월 1일 ~ 2022년 8월 22일”**을
 선정하기를 바란다. 다음 URL를 크릭하여 [Dashboarch](http://20.214.241.250:5601/app/dashboards#/view/e0d39e10-22ea-11ed-9c12-83496c1b08fe?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))) 보여줄 것이다.
-6.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
- 
-5.2.	총품중 및 품종별 접수량이 얼마인가?
- 
-5.3.	각 품종별 보호상태가 어떻게 되나요?
- 
-5.4.	품종별 성별과 색상은 어떻게 되나요?
- 
 
-5.5.	나이 비률 및 나이와 체중 관계가 어떻게 되나요?
+   ####6.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
+   <p align="center">
+ <img src="images/접수량.PNG" style="width:1000px;"/>
+</p>
+<p align = "center">
+ <em>그림 4: 총 접수량 및 날짜별 접수량 및 게시된 공고 </em>
+</p>
+ 
+   #### 6.2.	총품중 및 품종별 접수량이 얼마인가?
+   <p align="center">
+ <img src="images/kind.PNG" style="width:400px;"/>
+</p>
+<p align = "center">
+ <em>그림 5: 데이터 수정 결과 </em>
+</p>
+ 
+   #### 6.3.	각 품종별 보호상태가 어떻게 되나요?
+   
+  <p align="center">
+ <img src="images/kind-carestatus.png" style="width:600px;"/>
+</p>
+<p align = "center">
+ <em>그림 6: 각 품종별 보호상태 </em>
+</p>
+ 
+   ####6.4.	품종별 성별과 색상은 어떻게 되나요?
+ <p align="center">
+ <img src="images/kind-sex-color.png" style="width:1000px;"/>
+</p>
+<p align = "center">
+ <em>그림 7: 품종별 성별과 색상 </em>
+</p>
 
- 
+   ####6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
+   <p align="center">
+ <img src="images/age-percen.png" style="width:500px;"/>
+</p>
+<p align = "center">
+ <em>그림 8: 나이 비율 </em>
+</p>
 
- 
+<p align="center">
+ <img src="images/age-weight.png" style="width:500px;"/>
+</p>
+<p align = "center">
+ <em>그림 9: 나이와 체중 관계 </em>
+</p>
 
-5.6.	중성화는 어떻게 되나요?
+   ####6.6.	중성화는 어떻게 되나요?
+   <p align="center">
+ <img src="images/neuterYn.png" style="width:500px;"/>
+</p>
+<p align = "center">
+ <em>그림 10: 중성화여부 </em>
+</p>
  
-5.7.	 보호소 총 수량 및 보호소별 각 품종 수량은 어떻게 되나요?
+   ####6.7.	 보호소 총 수량 및 보호소별 각 품종 수량은 어떻게 되나요?
 
+ <p align="center">
+ <img src="images/careAdd.PNG" style="width:500px;"/>
+</p>
+<p align = "center">
+ <em>그림 11: 보호소 총 수량 </em>
+</p>
  
+ <p align="center">
+ <img src="images/careAdd-kind.png" style="width:500px;"/>
+</p>
+<p align = "center">
+ <em>그림 12: 보호소별 각 품종 수량 </em>
+</p>
  
+   ####6.8.	보호소별 보호상태비율 현황은 어떻게 되나요?
+ <p align="center">
+ <img src="images/careAdd-carestatus.png" style="width:1000px;"/>
+</p>
+<p align = "center">
+ <em>그림 13: 보호소별 보호상태비율 현황 </em>
+</p>
 
-5.8.	보호소별 보호상태비율 현황은 어떻게 되나요?
- 
-
-5.9.	 경기도 보호소 맵
- 
+   ####6.9.	 경기도 보호소 맵
+ <p align="center">
+ <img src="images/kyeonggido-careadd-map.png style="width:1000px;"/>
+</p>
+<p align = "center">
+ <em>그림 14: 경기도 보호소 맵 </em>
+</p>
