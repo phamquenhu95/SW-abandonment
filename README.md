@@ -118,7 +118,7 @@ GET abandonment202208-*/_search
    인덱스 패턴 이름을 **abandonment202208-* **라고 지정하고 타임 필터에서 timestamp를 선택한다. 다음 링크를 참고하고 기간은 **“2022년 8월 1일 ~ 2022년 8월 22일”**을
 선정하기를 바란다. 다음 URL를 크릭하여 [Dashboarch](http://20.214.241.250:5601/app/dashboards#/view/e0d39e10-22ea-11ed-9c12-83496c1b08fe?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))) 보여줄 것이다.
 
-   ####6.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
+   #### 6.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
    <p align="center">
  <img src="images/접수량.PNG" style="width:800px;"/>
 </p>
@@ -128,7 +128,7 @@ GET abandonment202208-*/_search
  
    #### 6.2.	총품중 및 품종별 접수량이 얼마인가?
    <p align="center">
- <img src="images/kind.PNG" style="width:400px;"/>
+ <img src="images/kind.PNG" style="width:600px;"/>
 </p>
 <p align = "center">
  <em>그림 5: 데이터 수정 결과 </em>
@@ -153,7 +153,7 @@ GET abandonment202208-*/_search
 
    #### 6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
    <p align="center">
- <img src="images/age-percen.png" style="width:500px;"/>
+ <img src="images/age-percen.png" style="width:400px;"/>
 </p>
 <p align = "center">
  <em>그림 8: 나이 비율 </em>
