@@ -153,14 +153,14 @@ GET abandonment202208-*/_search
 
    #### 6.5.	나이 비율 및 나이와 체중 관계가 어떻게 되나요?
    <p align="center">
- <img src="images/age-percen.png" style="width:400px;"/>
+ <img src="images/age-percen.png" style="width:350px;"/>
 </p>
 <p align = "center">
  <em>그림 8: 나이 비율 </em>
 </p>
 
 <p align="center">
- <img src="images/age-weight.png" style="width:500px;"/>
+ <img src="images/age-weight.png" style="width:600px;"/>
 </p>
 <p align = "center">
  <em>그림 9: 나이와 체중 관계 </em>
