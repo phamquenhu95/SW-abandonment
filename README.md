@@ -11,7 +11,7 @@
    - 인덱스 매핑 및 템플릿을 이용하고 인덱스 생겅
    - 키바나를 통해서 시각화하기
    (잠고: 엘라스틱서치, 키바나, 러그스태스를 설치하고 실행한다)
-   [Dashboard 결과](http://20.214.241.250:5601/app/dashboards#/view/e0d39e10-22ea-11ed-9c12-83496c1b08fe?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))) 에 분석한 결과를 보러가기를 바란다.
+   [Dashboard 결과](http://20.196.214.67:5601/app/dashboards#/view/bd43a3f0-2696-11ed-a7f5-51a31f55b848?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))) 에 분석한 결과를 보러가기를 바란다.
    ### 3. 데이터를 가져오기
    #### 3.1. 동물보호관리시스템 유기동물 조회 서비스
    공공데이터 URL [Data](https://www.data.go.kr/data/15098931/openapi.do) (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
@@ -119,7 +119,7 @@ GET abandonment202208-*/_search
 
    ### 6. 키바나에서 분석
    인덱스 패턴 이름을 ***abandonment202208-*** * 라고 지정하고 타임 필터에서 **timestamp**를 선택한다. 다음 링크를 참고하고 기간은 **2022년 8월 1일 ~ 2022년 8월 22일**을
-선정하기를 바란다. 다음 URL를 크릭하여 [Dashboard](http://20.214.241.250:5601/app/dashboards#/view/e0d39e10-22ea-11ed-9c12-83496c1b08fe?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))) 보여줄 것이다.
+선정하기를 바란다. 다음 URL를 크릭하여 [Dashboard](http://20.196.214.67:5601/app/dashboards#/view/bd43a3f0-2696-11ed-a7f5-51a31f55b848?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:now))) 보여줄 것이다.
 
    #### 6.1.	2022년 8월 1일 ~ 2022년 8월 22일 총 접수량 및 날짜별 접수량은 얼마인가? 날짜별 게시된 공고는 얼마인가?
    <p align="center">
@@ -134,7 +134,7 @@ GET abandonment202208-*/_search
  <img src="images/kind.PNG" style="width:600px;"/>
 </p>
 <p align = "center">
- <em>그림 5: 데이터 수정 결과 </em>
+ <em>그림 5: 총품중 및 품종별 접수량 </em>
 </p>
  
    #### 6.3.	각 품종별 보호상태가 어떻게 되나요?
